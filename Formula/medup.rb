@@ -1,9 +1,9 @@
 class Medup < Formula
   desc "Export Medium articles to Markdown"
   homepage "http://github.com/miry/medup"
-  url "https://github.com/miry/medup/archive/v0.1.5.tar.gz"
-  sha256 "62d9da2a727f49d4dc107327b4c91fb7b877bbb7b88899d35bf8456dbdeeabaf"
-  version "0.1.5"
+  url "https://github.com/miry/medup/archive/v0.1.6.tar.gz"
+  sha256 "b53da407a6698d491858814e8b1bf9645970bcf88b5c3b7fe13e09f125737933"
+  version "0.1.6"
   depends_on "crystal-lang"
 
   def install
