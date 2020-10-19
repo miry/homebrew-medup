@@ -8,6 +8,7 @@ class Medup < Formula
   depends_on "crystal"
 
   def install
+    system "shards install"
     system "crystal build --release --no-debug -o medup src/cli.cr"
     bin.install "medup"
   end
