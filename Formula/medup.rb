@@ -14,6 +14,6 @@ class Medup < Formula
   end
 
   test do
-    system "{bin}/medup", "--help"
+    system "{bin}/medup", "--version"
   end
 end
